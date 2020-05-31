@@ -19,7 +19,7 @@ commit = {master}
 This repository contains Pytorch implementation for my attempt NAS on Vision Language models (VQA task).
 In this work, I utilized MCAN-VQA model and factorized its operations then applied Search algorithms i.e SNAS to optimize Network's architecture.<br/>
 ![Figure 1: Overview of NAS-VQA.](./demo.png)
-For more detais, plz refer to my code as well as summary report `summary.pdf`.
+For more detais, plz refer to my code as well as summary report [`summary.pdf`](./summary.pdf).
 
 ## Prerequisites
 
