@@ -50,6 +50,8 @@ For search stage, run file `run_search.py`. Command for running search:
 python run_search.py --RUN=str --GPU=str --SEED=int --PRELOAD=bool
 ```
 
++ After you achieved desired architecture, please copy it to namedtuple ```VQAGenotype``` in ```genotypes.py``` file in ```model``` folder.
+
 For evaluation stage, run file `run.py`. Command for running evaluation:
 ```
 python run.py --RUN=str --ARCH_NAME=str --GPU=str --SEED=int --PRELOAD=bool
