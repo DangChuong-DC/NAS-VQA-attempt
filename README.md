@@ -31,10 +31,11 @@ For more detais, plz refer to my code as well as summary report `summary.pdf`
 	$ wget https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz -O en_vectors_web_lg-2.1.0.tar.gz
 	$ pip install en_vectors_web_lg-2.1.0.tar.gz
   ```
+
 #### Setup
  The image features are extracted using the [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention) strategy, with each image being represented as an dynamic number (from 10 to 100) of 2048-D features. We store the features for each image in a `.npz` file. You can prepare the visual features by yourself or download the extracted features from [OneDrive](https://awma1-my.sharepoint.com/:f:/g/personal/yuz_l0_tn/EsfBlbmK1QZFhCOFpr4c5HUBzUV0aH2h1McnPG1jWAxytQ?e=2BZl8O) or [BaiduYun](https://pan.baidu.com/s/1C7jIWgM3hFPv-YXJexItgw#list/path=%2F). The downloaded files contains three files: **train2014.tar.gz, val2014.tar.gz, and test2015.tar.gz**, corresponding to the features of the train/val/test images for *VQA-v2*, respectively.
 
-*For more details of setting up: Please refer to repository (https://github.com/MILVLG/mcan-vqa)*
+* For more details of setting up: Please refer to repository (https://github.com/MILVLG/mcan-vqa)
 
 ## Training
 For search stage, run file `run_search.py`. Command for running search:
