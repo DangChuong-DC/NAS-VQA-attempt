@@ -29,7 +29,7 @@ For more detais, plz refer to my code as well as summary report `summary.pdf`
 3. Install [PyTorch](http://pytorch.org/) >= 1.x with CUDA.
 4. Install [SpaCy](https://spacy.io/) and initialize the [GloVe](https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz) as follows:
 
-	```bash
+	```
 	$ pip install -r requirements.txt
 	$ wget https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz -O en_vectors_web_lg-2.1.0.tar.gz
 	$ pip install en_vectors_web_lg-2.1.0.tar.gz
