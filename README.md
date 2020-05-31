@@ -40,7 +40,7 @@ You should install some necessary packages.
 
 #### Setup
 
- The image features are extracted using the [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention) strategy, with each image being represented as an dynamic number (from 10 to 100) of 2048-D features. We store the features for each image in a `.npz` file. You can prepare the visual features by yourself or download the extracted features from [OneDrive](https://awma1-my.sharepoint.com/:f:/g/personal/yuz_l0_tn/EsfBlbmK1QZFhCOFpr4c5HUBzUV0aH2h1McnPG1jWAxytQ?e=2BZl8O) or [BaiduYun](https://pan.baidu.com/s/1C7jIWgM3hFPv-YXJexItgw#list/path=%2F). The downloaded files contains three files: **train2014.tar.gz, val2014.tar.gz, and test2015.tar.gz**, corresponding to the features of the train/val/test images for *VQA-v2*, respectively.
+ The image features are extracted using the [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention) strategy, with each image being represented as an dynamic number (from 10 to 100) of 2048-D features. We store the features for each image in a `.npz` file. You can prepare the visual features by yourself or download the extracted features from [OneDrive](https://awma1-my.sharepoint.com/:f:/g/personal/yuz_l0_tn/EsfBlbmK1QZFhCOFpr4c5HUBzUV0aH2h1McnPG1jWAxytQ?e=2BZl8O) or [BaiduYun](https://pan.baidu.com/s/1C7jIWgM3hFPv-YXJexItgw#list/path=%2F). The downloaded files contains three files: **train2014.tar.gz, val2014.tar.gz, and test2015.tar.gz**, corresponding to the features of the train/val/test images for *VQA-v2*, respectively.<br/>
 For more details of setting up: Please refer to repository (https://github.com/MILVLG/mcan-vqa)
 
 ## Training
@@ -54,15 +54,16 @@ For evaluation stage, run file `run.py`. Command for running evaluation:
 python run.py --RUN=str --ARCH_NAME=str --GPU=str --SEED=int --PRELOAD=bool
 ```
 
-where;
-`str`: should be replaced with string element of your choices. e.g. For `--RUN` of option choices are `{'train', 'val'}`
-`int`: a integer element of your choices
-`bool`: boolean element, i.e. `True` or `False`
+where;<br/>
+`str`: should be replaced with string element of your choices. e.g. For `--RUN` of option choices are `{'train', 'val'}`<br/>
+`int`: a integer element of your choices<br/>
+`bool`: boolean element, i.e. `True` or `False`<br/>
 
 ## Progression
-The project was under progression. However, around the end of April 2020,  A work, which has quite similar approach with more favorable results, was published hence unfortunately I decided to stop this project.
+The project was under progression. However, around the end of April 2020,  A great work, which has quite similar approach with more favorable results, was published hence unfortunately I decided to stop this project.<br/>
+Published paper (mentioned above): [Deep Multimodal Neural Architecture Search](https://arxiv.org/abs/2004.12070)<br/>
 As for personal curiosity, any further suggestions, advices are welcome.
 
-## implementation References
+## Implementation References
 https://github.com/MILVLG/mcan-vqa<br/>
 https://github.com/cvlab-tohoku/Dense-CoAttention-Network<br/>
