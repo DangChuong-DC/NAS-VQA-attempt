@@ -58,7 +58,7 @@ python run.py --RUN=str --ARCH_NAME=str --GPU=str --SEED=int --PRELOAD=bool
 ```
 
 where;<br/>
-`str`: should be replaced with string element of your choices. e.g. For `--RUN` of option choices are `{'train', 'val'}`<br/>
+`str`: should be replaced with string element of your choices. e.g. For `--RUN`, option choices are `{'train', 'val'}`<br/>
 `int`: a integer element of your choices<br/>
 `bool`: boolean element, i.e. `True` or `False`<br/>
 
